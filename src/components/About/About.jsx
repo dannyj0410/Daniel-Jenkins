@@ -6,8 +6,8 @@ const About = () => {
     <article className="about-container">
       <h1 className="geist">About</h1>
       <p>
-        Hi, I'm Daniel and I'm a Web Developer who has forever been obsessed
-        with technology. I create modern, sleek, user-friendly websites and
+        Hi, I'm Danny and I'm a Web Developer who has forever been obsessed with
+        technology. I create modern, sleek, user-friendly websites and
         applications!
       </p>
       <div className="more-info">

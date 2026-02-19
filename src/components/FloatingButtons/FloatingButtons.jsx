@@ -52,7 +52,7 @@ const FloatingButtons = () => {
         </svg>
       </Link>
 
-      <a href="mailto:dannyj172@gmail.com">
+      <a href="mailto:dan.jnks104@gmail.com">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

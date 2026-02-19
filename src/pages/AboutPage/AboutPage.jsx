@@ -187,14 +187,19 @@ const AboutPage = () => {
               Github ―{" "}
               <a
                 className="about-link"
-                href="https://github.com/dannyj172"
+                href="https://github.com/dannyj0410"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                dannyj172
+                dannyj0410
               </a>
             </li>
-            <li>Email ― dannyj172@gmail.com</li>
+            <li>
+              Email ―{" "}
+              <a className="about-link" href="mailto:dan.jnks104@gmail.com">
+                dan.jnks104@gmail.com
+              </a>
+            </li>
             <li>Full Name ― Daniel Jenkins</li>
             <li>Location ― Dobrich/Sofia</li>
             <li>
