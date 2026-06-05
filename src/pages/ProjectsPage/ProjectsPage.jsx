@@ -186,7 +186,39 @@ const ProjectsPage = () => {
         <h1 className="projects-heading">Projects</h1>
         <h2 className="geist projects-underheading">Personal Projects</h2>
         <SpoilerBlock text="email: john@gmail.com, username: john, password: 123123" />
-        {/* SHOE SITE */}
+        <ProjectCard
+          name={"MonoShare"}
+          authicon
+          tags={["React", "TypeScript", "MongoDB", "Express", "Tailwind"]}
+          features={[
+            "Stateful Auth",
+            "Zero-Knowledge Architecture",
+            "Client-Side Encryption",
+            "Create, View and Delete Secrets",
+            "One-Time Share Links",
+            "Atomic Auto-Erase on View",
+            "Custom Expiration Timers",
+            "Optional Password Protection",
+            "Personal Dashboard",
+            "Timeline Tracking",
+            "Recipient Email Restrictions",
+            "In-Memory Session Caching",
+            "Rate Limiting & Security Headers",
+            "Modern UI with Smooth Animations",
+            "Quality UX",
+            "Responsive Design",
+            "Error Handling",
+          ]}
+          mainImg={"./monoshare1.webp"}
+          mobileImg={"./monoshare-mobile.webp"}
+          bottomImg1={"./monoshare2.webp"}
+          bottomImg2={"./monoshare4.webp"}
+          description={`MonoShare is a privacy-first, zero-knowledge secret sharing platform for securely transmitting passwords, API keys, and sensitive tokens. It ensures data privacy by encrypting content entirely in the browser before transmission, utilizing self-destructing links that erase data immediately upon viewing.`}
+          date={"May 18, 2026"}
+          url={"monoshare.site"}
+          id={"monoshare"}
+          handleImgLoad={handleImgLoad}
+        />
         <ProjectCard
           name={"Discuss"}
           authicon

@@ -17,21 +17,21 @@ const ProjectList = () => {
       <ul>
         <li>
           <div className="img-container">
-            <Link to="/projects?scroll=discuss">
-              <img src="discuss1.webp" alt="discuss" />
+            <Link to="/projects?scroll=monoshare">
+              <img src="monoshare1.webp" alt="monoshare" />
             </Link>
           </div>
           <div className="project-info">
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://discuss-u0ac.onrender.com/"
+              href="https://monoshare.site"
               className="project-link"
             >
-              discuss-u0ac.onrender.com
+              monoshare.site
             </a>
             <div className="dashed-line" />
-            <h1 className="project-date">Dec 28, 2024</h1>
+            <h1 className="project-date">May 18, 2026</h1>
           </div>
         </li>
         <li>
@@ -51,6 +51,25 @@ const ProjectList = () => {
             </a>
             <div className="dashed-line" />
             <h1 className="project-date">May 08, 2025</h1>
+          </div>
+        </li>
+        <li>
+          <div className="img-container">
+            <Link to="/projects?scroll=discuss">
+              <img src="discuss1.webp" alt="discuss" />
+            </Link>
+          </div>
+          <div className="project-info">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://discuss-u0ac.onrender.com/"
+              className="project-link"
+            >
+              discuss-u0ac.onrender.com
+            </a>
+            <div className="dashed-line" />
+            <h1 className="project-date">Dec 28, 2024</h1>
           </div>
         </li>
         <li>

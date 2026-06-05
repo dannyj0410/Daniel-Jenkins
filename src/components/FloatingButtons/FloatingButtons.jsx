@@ -90,7 +90,7 @@ const FloatingButtons = () => {
       </a>
 
       <a
-        href="/Daniel-Jenkins-CV.pdf"
+        href="/Daniel_Jenkins_CV.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -168,7 +168,7 @@ const AboutPage = () => {
               CV ―{" "}
               <a
                 className="about-link"
-                href="/Daniel-Jenkins-CV.pdf"
+                href="/Daniel_Jenkins_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -177,8 +177,8 @@ const AboutPage = () => {
               /{" "}
               <a
                 className="about-link"
-                href="/Daniel-Jenkins-CV.pdf"
-                download={"Daniel-Jenkins-CV"}
+                href="/Daniel_Jenkins_CV.pdf"
+                download={"Daniel_Jenkins_CV"}
               >
                 Download
               </a>
