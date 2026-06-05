@@ -7,6 +7,7 @@ import InfoPopup from "../../components/InfoPopup/InfoPopup";
 import Loader from "../../components/Loader/Loader";
 
 const sectionIds = [
+  "monoshare",
   "discuss",
   "sneakerthrift",
   "chatty",
@@ -121,6 +122,12 @@ const ProjectsPage = () => {
             <h2 className="geist">
               <span>―</span> Personal Projects
             </h2>
+            <li
+              onClick={() => scrollToSection("monoshare")}
+              className={activeSection === "monoshare" ? "active" : ""}
+            >
+              MonoShare
+            </li>
             <li
               onClick={() => scrollToSection("discuss")}
               className={activeSection === "discuss" ? "active" : ""}
