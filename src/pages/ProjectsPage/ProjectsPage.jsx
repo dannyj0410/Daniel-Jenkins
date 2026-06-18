@@ -206,6 +206,7 @@ const ProjectsPage = () => {
           ]}
           features={[
             "PrismaORM",
+            "Vite",
             "Stateful Auth",
             "Zero-Knowledge Architecture",
             "Web Crypto API",
@@ -214,6 +215,8 @@ const ProjectsPage = () => {
             "TLS/SSL Encryption",
             "Nginx Reverse Proxy",
             "PM2",
+            "Code Splitting",
+            "Fail2Ban",
             "Sentry",
             "Playwright",
             "Vitest",
@@ -224,6 +227,7 @@ const ProjectsPage = () => {
             "Self-Hosted Fonts",
             "Error Handling",
             "Sliding Session Expiry",
+            "Optimised Lighthouse Metrics",
             "SEO Optimised",
             "Email Confirmations & Password Resets With Resend",
             "Create, View and Delete Secrets",
