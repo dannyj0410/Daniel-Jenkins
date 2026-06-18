@@ -217,6 +217,7 @@ const ProjectsPage = () => {
             "PM2",
             "Code Splitting",
             "Fail2Ban",
+            "UptimeRobot",
             "Sentry",
             "Playwright",
             "Vitest",
