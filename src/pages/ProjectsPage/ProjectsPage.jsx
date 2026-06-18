@@ -196,7 +196,14 @@ const ProjectsPage = () => {
         <ProjectCard
           name={"MonoShare"}
           authicon
-          tags={["React", "TypeScript", "MongoDB", "Express", "Tailwind"]}
+          tags={[
+            "React",
+            "TypeScript",
+            "MongoDB",
+            "NodeJS",
+            "Express",
+            "Tailwind",
+          ]}
           features={[
             "PrismaORM",
             "Stateful Auth",
@@ -238,7 +245,7 @@ const ProjectsPage = () => {
         <ProjectCard
           name={"Discuss"}
           authicon
-          tags={["Angular", "TypeScript", "MongoDB", "Express"]}
+          tags={["Angular", "TypeScript", "MongoDB", "NodeJS", "Express"]}
           features={[
             "Authorization",
             "Create, Edit and View Posts",
@@ -299,6 +306,7 @@ const ProjectsPage = () => {
             "JavaScript",
             "Tailwind",
             "MongoDB",
+            "NodeJS",
             "Express",
             "Socket.io",
             "Cloudinary",
@@ -332,7 +340,7 @@ const ProjectsPage = () => {
         />
         <ProjectCard
           name={"Foodmine"}
-          tags={["Angular", "TypeScript", "MongoDB", "Express"]}
+          tags={["Angular", "TypeScript", "MongoDB", "NodeJS", "Express"]}
           features={[
             "Authorization",
             "Error Handling",
@@ -377,6 +385,7 @@ const ProjectsPage = () => {
             "React",
             "JavaScript",
             "MongoDB",
+            "NodeJS",
             "Express",
             "Cloudinary",
             "Auth0",
@@ -430,7 +439,6 @@ const ProjectsPage = () => {
           id={"movie"}
           handleImgLoad={handleImgLoad}
         />
-        {/* Showcase 1 picture + app name for less important apps */}
       </div>
     </div>
   );

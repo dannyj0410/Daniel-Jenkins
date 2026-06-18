@@ -94,6 +94,12 @@
   border: 2px #2e79c7 solid;
 }
 
+.project-container .nodejs {
+  color: #a8c763;
+  background-color: #a7c76342;
+  border: 2px #a8c763 solid;
+}
+
 .project-container .mongodb {
   color: #389b59;
   background-color: #389b5949;
@@ -148,8 +154,12 @@
     #a700ff,
     #ff0057
   );
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   z-index: -1;
